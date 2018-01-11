@@ -134,10 +134,10 @@
 #define kern_off_kmem_free 0xFCD40
 #define kern_off_pmap_extract 0x2E02A0
 #define kern_off_pmap_protect 0x2E2D00
-#define kern_off_sched_pin 0x31FB7
+#define kern_off_sched_pin 0x31FB70
 #define kern_off_sched_unpin 0x31FB80
 #define kern_off_smp_rendezvous 0x1B84A0
-#define kern_off_smp_no_rendevous_barrier 0x275D90
+#define kern_off_smp_no_rendevous_barrier 0x1B8260
 #define kern_off_icc_query_nowait 0x44020
 #define kern_off_kernel_map 0x1AC60E0
 #define kern_off_sysent 0x107C610
