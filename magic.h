@@ -129,18 +129,18 @@
 #define kern_off_printf 0x436040
 #define kern_off_copyin 0x1ea710
 #define kern_off_copyout 0x1ea630
-#define kern_off_copyinstr 0x14AD00 //missing
+#define kern_off_copyinstr 0x001eab40
 #define kern_off_kmem_alloc_contig 0xfcc80
 #define kern_off_kmem_free 0xfce50
 #define kern_off_pmap_extract 0x41DBC0 //Missing
 #define kern_off_pmap_protect 0x420310 //Missing
-#define kern_off_sched_pin 0x73770 //Missing
-#define kern_off_sched_unpin 0x73780 //Missing
-#define kern_off_smp_rendezvous 0xB2BB0 //Missing
+#define kern_off_sched_pin 0x0031ff40
+#define kern_off_sched_unpin 0x0031ff50
+#define kern_off_smp_rendezvous 0x00702330
 #define kern_off_smp_no_rendevous_barrier 0xB2970 //Missing
 #define kern_off_icc_query_nowait 0x808C0 //Missing
 #define kern_off_kernel_map 0x1B31218 //Missing
-#define kern_off_sysent 0x102B690 //Missing
+#define kern_off_sysent 0x0107c610
 #define kern_off_kernel_pmap_store 0x21BCC38 //Missing
 #define kern_off_Starsha_UcodeInfo 0
 #define kern_off_gpu_devid_is_9924 0x496720 //Missing
