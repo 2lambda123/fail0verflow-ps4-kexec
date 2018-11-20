@@ -150,8 +150,6 @@
 #define kern_off_dmpml4i                    0x21C5A2C
 #define kern_off_dmpdpi                     0x21C5E30
 
-#endif
-
 #elif defined PS4_5_01
 
 #define kern_off_printf 0x00435C70
