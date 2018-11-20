@@ -141,7 +141,7 @@
 #define kern_off_icc_query_nowait           0x07FF00
 
 #define kern_off_kernel_map                 0x1B39218
-#define kern_off_sysent                     0x0x1034790
+#define kern_off_sysent                     0x1034790
 #define kern_off_kernel_pmap_store          0x21C5A38
 #define kern_off_Starsha_UcodeInfo 0
 #define kern_off_gpu_devid_is_9924          0x4976A0
