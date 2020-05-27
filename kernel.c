@@ -257,7 +257,7 @@ static int patch_pmap_check(void)
             return 1;
         }
         #else
-        if (!memcmp(p, "x83\xe0\x06\x83\xf8\x06", 6)) {
+        if (!memcmp(p, "\x83\xe0\x06\x83\xf8\x06", 6)) {
             p[2] = 0;
             kern.printf("pmap_protect patch successful (found at %p)\n", p);
             return 1;
